@@ -1,9 +1,9 @@
 /* eslint no-console:0 */
-import 'rc-tree/assets/index.less';
+import 'rc-tree-view/assets/index.less';
 import './draggable.less';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Tree, { TreeNode } from 'rc-tree';
+import Tree, { TreeNode } from 'rc-tree-view';
 import { gData } from './util';
 
 class Demo extends React.Component {

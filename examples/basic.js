@@ -3,8 +3,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ReactDOM from 'react-dom';
-import Tree, { TreeNode } from 'rc-tree';
-import 'rc-tree/assets/index.less';
+import Tree, { TreeNode } from 'rc-tree-view';
+import 'rc-tree-view/assets/index.less';
 import './basic.less';
 
 class Demo extends React.Component {

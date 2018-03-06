@@ -53,7 +53,7 @@ see examples
 
 | name     | description    | type     | default      |
 |----------|----------------|----------|--------------|
-|prefixCls | prefix class | String | 'rc-tree' |
+|prefixCls | prefix class | String | 'rc-tree-view' |
 |className | additional css class of root dom node | String | '' |
 |showLine | whether show line | bool | false |
 |showIcon | whether show icon | bool | true |

@@ -1,5 +1,5 @@
 {
-  "name": "rc-tree",
+  "name": "rc-tree-view-view",
   "version": "1.7.10",
   "description": "tree ui component for react",
   "keywords": [
@@ -18,18 +18,18 @@
     "es",
     "lib"
   ],
-  "homepage": "http://github.com/react-component/tree",
+  "homepage": "https://github.com/shimizacken/rc-tree-view",
   "author": "hualei5280@gmail.com",
   "repository": {
     "type": "git",
-    "url": "git@github.com:react-component/tree.git"
+    "url": "git@github.com:shimizacken/rc-tree-view.git"
   },
   "bugs": {
-    "url": "http://github.com/react-component/tree/issues"
+    "url": "http://github.com/shimizacken/rc-tree-view/issues"
   },
   "license": "MIT",
   "config": {
-    "port": 8018,
+    "port": 8050,
     "entry": {
       "rc-tree": [
         "./assets/index.less",

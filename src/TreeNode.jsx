@@ -317,9 +317,11 @@ class TreeNode extends React.Component {
         {...liProps}
         className={classNames(props.className, disabledCls, dragOverCls, filterCls) }
       >
-        {canRenderSwitcher ? this.renderSwitcher(props, expandedState) : renderNoopSwitcher()}
-        {props.checkable ? this.renderCheckbox(props) : null}
-        {selectHandle()}
+        <div className="node-row">
+          {canRenderSwitcher ? this.renderSwitcher(props, expandedState) : renderNoopSwitcher()}
+          {props.checkable ? this.renderCheckbox(props) : null}
+          {selectHandle()}
+        </div>
         {newChildren}
       </li>
     );
